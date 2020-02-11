@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width, initial-scale=0.5">
+	<title>Feedback Form</title>
+</head>
+<body style="background-color:#D8B2EB;">
+<!-- Script 3.1 - feedback.html 
+		Chapter 3 -->
+<div style="font-size:3vw"><p>Please complete this form to submit your feedback:</p>
+
+<form action="handle_form.php">
+	
+	<p>Name: <select name="title" required style="font-size:3vw">
+	<option value="Mr.">Mr.</option>
+	<option value="Mrs.">Mrs.</option>
+	<option value="Ms.">Ms.</option>
+	</select> <input type="text" name="name" style="font-size:3vw" size="20" required></p>
+	
+	<p>Email Address: <input type="email" style="font-size:3vw" name="email" size="20" required></p>
+	
+	<p>Response: This is...
+	<input type="radio" style="font-size:3vw" name="response" value="excellent" required> excellent
+	<input type="radio" style="font-size:3vw" name="response" value="okay"> okay
+	<input type="radio" style="font-size:3vw" name="response" value="boring"> boring</p>
+	
+	<p>Comments: <textarea name="comments" style="font-size:2vw;background-color:#C2E4FF" rows="3" cols="30" required></textarea></p>
+	
+	<input type="submit" name="submit" style="font-size:3vw" width="100%" value="Submit">
+	
+</form>
+</div>
+</body>
+</html>
+	
