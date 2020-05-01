@@ -1,0 +1,111 @@
+h1, h2, h3, p, ul, li, th, td{margin-left:1%; font-family:sans-serif;color:#E5DBFC;
+	text-decoration:none;
+	filter: drop-shadow(0 0 4px crimson);}
+
+.green {margin-left:1%; font-family:sans-serif;color:#1EFF42;
+	text-decoration:none;
+	filter: drop-shadow(0 0 4px crimson);}
+
+label { display: block; width: 100px;}
+
+body {background-color:#000000;
+	margin-left: 10%;
+	margin-right: 10%;}
+
+a {
+	color:#E5DBFC;
+	text-decoration:none;
+	filter: drop-shadow(0 0 4px crimson);
+}
+a:hover { 
+color:#1EFF39;
+}
+
+.bottomtable {padding-bottom:20px;}
+
+.seethru {
+	background-color:rgba(0, 0, 0, 0.5);
+	max-width: 300px;
+	
+}
+.seethru2 {
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.height {
+min-height: 400px;
+}
+.delete {
+	background-image: url("prey1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+	max-width: 1275px;
+}
+.edit {
+	background-image: url("prey2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+	max-width: 1275px;
+}
+.register {
+	background-image: url("prey2006.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+	max-width: 1275px;
+}
+.welcome {
+	background-image: url("preybar.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+	max-width: 1275px;
+}
+.foot {
+	background-image: url("prey2017.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 200px;
+	max-width: 1275px;
+}
+
+.error {color:red; font-weight:bold; font-family:sans-serif; font-size: 24px; }
+
+.good {color:#1EFF42; font-weight:bold; font-family:sans-serif; font-size: 24px; }
+
+.siteHeader {
+	background-image: url("preyheader.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+   max-width: 1275px;
+    height: 300px;
+}
+
+.logo {
+    font-size: 36px;
+    padding-left: 8%;
+	padding-top: 3%;
+}
+.nav li {
+	color:#ffffff;
+	font-weight: bold;
+	font-family: sans-serif;
+    display: inline;
+    line-height: 4;
+    margin-left: 25px;
+}
+.nav li:first-of-type {
+  margin-left: 0;
+}
+.siteFooter {
+  border-top: 1px solid #eee;
+  font-size: .875em;
+  padding-top: 15px;
+}
+
+.nav { 
+	text-align: right;
+	padding-right: 2%;
+ }
+
