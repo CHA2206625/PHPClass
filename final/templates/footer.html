@@ -1,0 +1,38 @@
+	<!-- END CHANGEABLE CONTENT. -->	
+	</main>
+	
+	<footer>
+		
+		<?php 
+		
+			if (!isset($_COOKIE['Tommy'])) {
+				print "<div class='foot'><hr/><h3><a href='login.php'>Login</a></h3><p class='float-right'>";
+			} else {
+				print "<div class='foot'><hr/><h3><a href='logout.php'>LOG OUT</a></h3><p class='float-right'>";
+			}
+		
+		
+		date_default_timezone_set('America/Phoenix');
+		$now = time(); // or your date as well
+
+		$your_date = strtotime("2006-07-11");
+		// HERE ARE THE MATH CALCULATIONS!!!
+		$datediff = $now - $your_date;
+
+		$x = round($datediff / (60 * 60 * 24));
+		// HERE IS THE VARIABLE USED CALCULATING THE DAYS SINCE RELEASE!
+		print "<p>$x days since release<br>Prey developed by Human Head Studios, &copy; 2006 Take-Two Interactive Software and its subsidiaries.<br>
+		This site created by:<span class='green'>Chad Moklestad for CIS166AE - PHP Class</span>.</p><br>
+		<p><a href='list_dir.php'>Site Directory</a></p>";
+
+		?> </div>
+	</footer>
+	
+</body>
+</html>
+<?php //script FINAL - footer.html
+
+//send buffer to browser and turn it off
+	ob_end_flush();
+	
+?>
